@@ -41,7 +41,7 @@ type BenchmarkResult = {
 
 function App() {
   const [reducerType, setReducerType] = useState<ReducerType>('js');
-  const [dataSize, setDataSize] = useState<DataSize>(1000);
+  const [dataSize, setDataSize] = useState<DataSize>(10000);
   const [wasmLoaded, setWasmLoaded] = useState(false);
   const [dataLoaded, setDataLoaded] = useState(false);
 
